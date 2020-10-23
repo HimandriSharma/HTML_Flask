@@ -1,9 +1,24 @@
+<!DOCTYPE html>
 <html>
+   <head>
+      <title>Login</title>
+      <!--<link rel="stylesheet" type="text/css" href="bootstrap.css">--->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <style type="text/css">
+       
+      </style>
+   </head>
    <body>
+      <div class="container" style=" text-align: center; padding-top: 10%;">
       <form action = "http://localhost:5000/login" method = "POST">
-         <p>Enter Name:</p>
+         <p>Enter FirstName:</p>
          <p><input type = "text" name = "nm" /></p>
-         <p><input type = "submit" value = "submit" /></p>
+         <p>Enter Surname:</p>
+         <p><input type = "text" name = "surname" /></p>
+         <p>Enter CollegeName:</p>
+         <p><input type = "text" name = "college" /></p>
+         <button type="button" class="btn btn-info">Submit</button>
       </form>
+   </div>
    </body>
 </html>
